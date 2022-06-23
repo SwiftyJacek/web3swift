@@ -1136,7 +1136,6 @@
 				1317BCDF218C50D100D6D095 /* Sources */,
 				1317BCE0218C50D100D6D095 /* Frameworks */,
 				1317BCE1218C50D100D6D095 /* Resources */,
-				1317BE04218C5D1B00D6D095 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -1253,24 +1252,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1317BE04218C5D1B00D6D095 /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = Carthage;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "carthage copy-frameworks\n";
-		};
 		139751F0219AFA500044D2B0 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
