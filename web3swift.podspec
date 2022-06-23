@@ -17,5 +17,5 @@ Pod::Spec.new do |spec|
     spec.dependency 'Starscream', '~> 4.0.4'
     spec.dependency 'CryptoSwift', '~> 1.4.1'
     spec.dependency 'secp256k1.c', '~> 0.1'
-    spec.dependency 'PromiseKit', '~> 6.15.3'
+    spec.dependency 'PromiseKit', '~> 6.16.3'
 end
