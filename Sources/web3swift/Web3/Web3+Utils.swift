@@ -5888,7 +5888,7 @@ extension Web3.Utils {
 ]
 """
     
-    static let erc165ABI = """
+    public static let erc165ABI = """
     [
       {
         "inputs": [
