@@ -146,7 +146,7 @@ public class ERC1155: IERC1155 {
 }
 
 extension ERC1155: IERC1155Metadata {
-    func uri(id: BigUInt) throws -> String {
+    public func uri(id: BigUInt) throws -> String {
         let contract = self.contract
         var transactionOptions = TransactionOptions()
         transactionOptions.callOnBlock = .latest
@@ -155,7 +155,7 @@ extension ERC1155: IERC1155Metadata {
         return res
     }
     
-    func name(id: BigUInt) throws -> String {
+    public func name(id: BigUInt) throws -> String {
         let contract = self.contract
         var transactionOptions = TransactionOptions()
         transactionOptions.callOnBlock = .latest
